@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-23 16:46+0100\n"
-"PO-Revision-Date: 2019-09-30 10:15-0700\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-13 15:13+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: none\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -17,14 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.9\n"
 
 #: data/unboxing.metainfo.xml.in:10 data/unboxing.desktop.in:3
 msgid "Unboxing"
-msgstr ""
+msgstr "Unboxing"
 
 #: data/unboxing.metainfo.xml.in:11 data/unboxing.desktop.in:4
 msgid "Install apps downloaded from the Internet"
-msgstr ""
+msgstr "Instaliraj s interneta preuzete aplikacije"
 
 #: data/unboxing.metainfo.xml.in:13
 msgid ""
@@ -42,47 +43,60 @@ msgid ""
 "Ubuntu 24.04 LTS If you like this application please do not hesitate to do a "
 "donation. This takes a lot of time, and is done to help people."
 msgstr ""
+"Sredi instalaciju preuzetih Deb paketa za Ubuntu i njihovih zavisnosti. "
+"Jednostavno klikni dvaput, potvrdi, upiši lozinku i pričekaj. Imaj na umu da "
+"je aplikacija zamišljena kao alternativa Sideloadu i kao rezervna opcija za "
+"instalaciju zastarjelih paketa, ali dolazi od treće strane, a ne od "
+"elementary OS tima. Zato njima nemoj prijavljivati probleme vezane uz ovu "
+"aplikaciju i njezino korištenje. Može biti sasvim dovoljno za pokoji "
+"„zalutali” paket i za ljude kojima terminal nije baš drag. Za bilo što "
+"naprednije je ipak bolje koristiti naredben i redak. Instaliraj samo pakete "
+"koji su namijenjeni tvojoj verziji elementary OS-a ili odgovarajućoj verziji "
+"Ubuntua, i koji nisu dostupni u AppCenteru: elementary OS 7: Ubuntu 22.04 "
+"LTS i elementary OS 8: Ubuntu 24.04 LTS. Ako ti se ova aplikacija sviđa, "
+"slobodno doniraj. Razvoj zahtijeva puno vremena, a aplikacija je napravljena "
+"kako bi ljudima olakšala posao."
 
 #: data/unboxing.metainfo.xml.in:31
 msgid "The welcome screen"
-msgstr ""
+msgstr "Uvodni ekran"
 
 #: data/unboxing.metainfo.xml.in:35
 msgid "The welcome screen in dark mode"
-msgstr ""
+msgstr "Uvodni ekran u tamnom modusu"
 
 #: data/unboxing.metainfo.xml.in:39
 msgid "The dialog before installation"
-msgstr ""
+msgstr "Dijalog prije instalacije"
 
 #: data/unboxing.metainfo.xml.in:43
 msgid "The final dialog"
-msgstr ""
+msgstr "Završni dijalog"
 
 #: data/unboxing.metainfo.xml.in:77
 msgid "Team Constellation"
-msgstr ""
+msgstr "Konstelacija tima"
 
 #: data/unboxing.metainfo.xml.in:84
 msgid "Re-RDNN"
-msgstr ""
+msgstr "Re-RDNN"
 
 #: data/unboxing.metainfo.xml.in:85
 msgid "Support link moved into button"
-msgstr ""
+msgstr "Poveznica za podršku je sada gumb"
 
 #: data/unboxing.metainfo.xml.in:86
 msgid "More robust handling of files outside Downloads"
-msgstr ""
+msgstr "Robusnije rukovanje datotekama izvan preuzimanja"
 
 #: data/unboxing.metainfo.xml.in:93
 msgid "Initial release"
-msgstr ""
+msgstr "Prvo izdanje"
 
 #: data/unboxing.desktop.in:5
 msgid "Package Installer"
-msgstr ""
+msgstr "Instalater paketa"
 
 #: data/unboxing.desktop.in:8
 msgid "package;apt;dpkg;install;rpm;deb;debian"
-msgstr ""
+msgstr "paket;prikladno;dpkg;instalacija;RPM;deb;debian"
