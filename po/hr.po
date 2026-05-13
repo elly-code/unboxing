@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.github.elly_code.unboxing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-23 16:46+0100\n"
-"PO-Revision-Date: 2024-08-06 23:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-05-13 15:38+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://l10n.elementary.io/projects/desktop/"
 "unboxing/hr/>\n"
 "Language: hr\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Poedit 3.9\n"
 
 #: src/Views/ErrorView.vala:21
 msgid "Installation failed"
-msgstr ""
+msgstr "Instalacija nije uspjela"
 
 #: src/Views/ErrorView.vala:38
 msgid "Details"
-msgstr ""
+msgstr "Detalji"
 
 #: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:35
 msgid "Close"
@@ -35,17 +35,19 @@ msgstr "Zatvori"
 #: src/Views/MainView.vala:13
 #, c-format
 msgid "Trust and install “%s”?"
-msgstr ""
+msgstr "Vjerovati i instalirati „%s“?"
 
 #: src/Views/MainView.vala:26
 msgid "Trust and install this package?"
-msgstr ""
+msgstr "Vjerovati i instalirati ovaj paket?"
 
 #: src/Views/MainView.vala:27
 msgid ""
 "This package is provided solely by its developer and has not been reviewed "
 "for security, privacy, or system integration."
 msgstr ""
+"Ovaj paket pruža isključivo njegov programer i nije pregledan u pogledu "
+"sigurnosti, privatnosti ili integracije sustava."
 
 #.
 #. var loading_spinner = new Gtk.Spinner ();
@@ -58,11 +60,11 @@ msgstr ""
 #. loading_grid.append (loading_label);
 #: src/Views/MainView.vala:38
 msgid "I understand"
-msgstr ""
+msgstr "Razumijem"
 
 #: src/Views/MainView.vala:59
 msgid "Updates may need to be installed manually"
-msgstr ""
+msgstr "Nove verzije će se možda morati ručno instalirati"
 
 #: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
 msgid "Cancel"
@@ -70,298 +72,300 @@ msgstr "Odustani"
 
 #: src/Views/MainView.vala:96
 msgid "Install Anyway"
-msgstr ""
+msgstr "Svejedno instaliraj"
 
 #: src/Views/MainView.vala:109
 msgid "Missing components will be downloaded and installed"
-msgstr ""
+msgstr "Nedostajuće komponente će se preuzeti i instalirati"
 
 #: src/Views/MainView.vala:113
 msgid "Runs unsandboxed - Permissions cannot be changed"
-msgstr ""
+msgstr "Pokreće se bez sandboxa – Dozvole se ne mogu promijeniti"
 
 #: src/Views/ProgressView.vala:13
 #, c-format
 msgid "Installing “%s”"
-msgstr ""
+msgstr "Instalira se „%s”"
 
 #: src/Views/ProgressView.vala:31
 msgid "Preparing…"
-msgstr ""
+msgstr "Pripremanje …"
 
 #. string? secondary_label_string;
 #: src/Views/SuccessView.vala:24
 #, c-format
 msgid "“%s” has been installed"
-msgstr ""
+msgstr "„%s” je instaliran!"
 
 #. secondary_label_string = _("Open it any time from the Applications Menu.");
 #: src/Views/SuccessView.vala:27
 msgid "New applications will appear normally in the Applications Menu."
 msgstr ""
+"Nove aplikacije će se normalno pojavljivati u izborniku „Aplikacije”."
 
 #: src/Views/SuccessView.vala:29
 #, c-format
 msgid "Move ”%s” to Trash"
-msgstr ""
+msgstr "Premjesti „%s” u smeće"
 
 #: src/Welcome.vala:24
 msgid "Install Untrusted Package"
-msgstr ""
+msgstr "Instaliraj nepouzdani paket"
 
 #: src/Welcome.vala:37
 msgid "Unboxing"
-msgstr ""
+msgstr "Unboxing"
 
 #: src/Welcome.vala:46
 #, c-format
 msgid "Support us! (%s)"
-msgstr ""
+msgstr "Podrži nas! (%s)"
 
 #: src/Welcome.vala:62
 msgid "Install Debian Package"
-msgstr ""
+msgstr "Instaliraj Debian paket"
 
 #: src/Welcome.vala:63
 msgid ""
 "Debian packages are a legacy format to distribute applications and system "
 "components"
 msgstr ""
+"Debian paketi su stari format za distribuciju aplikacija i komponenti "
+"sustava"
 
 #: src/Welcome.vala:76
 msgid "Select a file to open"
-msgstr ""
+msgstr "Odaberi datoteku za otvaranje"
 
 #: src/Welcome.vala:77
 msgid "Browse to open a single file"
-msgstr ""
+msgstr "Pretraži za otvaranje jedne datoteke"
 
 #: src/Welcome.vala:101
 #, c-format
 msgid "Open “%s”"
-msgstr ""
+msgstr "Otvori „%s”"
 
 #. -------- --------
 #: src/Welcome.vala:109
 msgid "Support us!"
-msgstr ""
+msgstr "Podrži nas!"
 
 #: src/Welcome.vala:146
 msgid "All files"
-msgstr ""
+msgstr "Sve datoteke"
 
 #: src/Welcome.vala:151
 msgid "Debian package"
-msgstr ""
+msgstr "Debian paket"
 
 #: src/Welcome.vala:165
 msgid "Open"
-msgstr ""
+msgstr "Otvori"
 
 #: src/MainWindow.vala:24
 #, c-format
 msgid "Install “%s”"
-msgstr ""
+msgstr "Instaliraj „%s”"
 
 #: src/MainWindow.vala:66
 msgid "This does not appear to be a valid package file"
-msgstr ""
+msgstr "Čini se da ovo nije valjana datoteka paketa"
 
 #: src/MainWindow.vala:67
 #, c-format
 msgid "“%s” does not belong to supported mimetypes"
-msgstr ""
+msgstr "„%s” ne pripada podržanim mime vrstama"
 
 #: src/MainWindow.vala:88
 msgid "There are ongoing operations"
-msgstr ""
+msgstr "Postoje operacije koje su u tijeku"
 
 #: src/MainWindow.vala:89
 msgid "Please wait until all operations are finished"
-msgstr ""
+msgstr "Pričekaj dok sve operacije završe"
 
 #: src/MainWindow.vala:137
 msgid "Package installed"
-msgstr ""
+msgstr "Paket je instaliran"
 
 #: src/MainWindow.vala:138
 #, c-format
 msgid "Installed “%s”"
-msgstr ""
+msgstr "Instaliran je „%s”"
 
 #: src/Utils/EnumToLocText.vala:13
 msgid "Starting"
-msgstr ""
+msgstr "Pokretanje"
 
 #: src/Utils/EnumToLocText.vala:15
 msgid "Waiting"
-msgstr ""
+msgstr "Čekanje"
 
 #: src/Utils/EnumToLocText.vala:17
 msgid "Running"
-msgstr ""
+msgstr "U tijeku"
 
 #: src/Utils/EnumToLocText.vala:19
 msgid "Querying"
-msgstr ""
+msgstr "Upiti"
 
 #: src/Utils/EnumToLocText.vala:21
 msgid "Getting information"
-msgstr ""
+msgstr "Preuzimanje informacija"
 
 #: src/Utils/EnumToLocText.vala:23
 msgid "Removing packages"
-msgstr ""
+msgstr "Uklanjanje paketa"
 
 #: src/Utils/EnumToLocText.vala:25
 msgid "Downloading"
-msgstr ""
+msgstr "Preuzimanje"
 
 #: src/Utils/EnumToLocText.vala:27
 msgid "Refreshing software list"
-msgstr ""
+msgstr "Osvježavanje popisa softvera"
 
 #: src/Utils/EnumToLocText.vala:29
 msgid "Installing updates"
-msgstr ""
+msgstr "Instaliranje novih verzija"
 
 #: src/Utils/EnumToLocText.vala:31
 msgid "Cleaning up packages"
-msgstr ""
+msgstr "Brisanje paketa"
 
 #: src/Utils/EnumToLocText.vala:33
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "Zastarjeli paketi"
 
 #: src/Utils/EnumToLocText.vala:35
 msgid "Resolving dependencies"
-msgstr ""
+msgstr "Rješavanje zavisnosti"
 
 #: src/Utils/EnumToLocText.vala:37
 msgid "Checking signatures"
-msgstr ""
+msgstr "Provjeravanje potpisa"
 
 #: src/Utils/EnumToLocText.vala:39
 msgid "Testing changes"
-msgstr ""
+msgstr "Testiranje promjena"
 
 #: src/Utils/EnumToLocText.vala:41
 msgid "Committing changes"
-msgstr ""
+msgstr "Primjenjivanje promjena"
 
 #: src/Utils/EnumToLocText.vala:43
 msgid "Requesting data"
-msgstr ""
+msgstr "Zahtijevanje podataka"
 
 #: src/Utils/EnumToLocText.vala:45
 msgid "Finished"
-msgstr ""
+msgstr "Završeno"
 
 #: src/Utils/EnumToLocText.vala:47
-#, fuzzy
 msgid "Cancelling"
-msgstr "Odustani"
+msgstr "Prekidanje"
 
 #: src/Utils/EnumToLocText.vala:49
 msgid "Downloading repository information"
-msgstr ""
+msgstr "Preuzimanje informacija repozitorija"
 
 #: src/Utils/EnumToLocText.vala:51
 msgid "Downloading list of packages"
-msgstr ""
+msgstr "Preuzimanje popisa paketa"
 
 #: src/Utils/EnumToLocText.vala:53
 msgid "Downloading file lists"
-msgstr ""
+msgstr "Preuzimanje popisa datoteka"
 
 #: src/Utils/EnumToLocText.vala:55
 msgid "Downloading lists of changes"
-msgstr ""
+msgstr "Preuzimanje popisa promjena"
 
 #: src/Utils/EnumToLocText.vala:57
 msgid "Downloading groups"
-msgstr ""
+msgstr "Preuzimanje grupa"
 
 #: src/Utils/EnumToLocText.vala:59
 msgid "Downloading update information"
-msgstr ""
+msgstr "Preuzimanje informacija aktualiziranja"
 
 #: src/Utils/EnumToLocText.vala:61
 msgid "Repackaging files"
-msgstr ""
+msgstr "Prepakiravanje datoteka"
 
 #: src/Utils/EnumToLocText.vala:63
 msgid "Loading cache"
-msgstr ""
+msgstr "Učitavanje predmemorije"
 
 #: src/Utils/EnumToLocText.vala:65
 msgid "Scanning applications"
-msgstr ""
+msgstr "Pretraživanje aplikacija"
 
 #: src/Utils/EnumToLocText.vala:67
 msgid "Generating package lists"
-msgstr ""
+msgstr "Stvaranje popisa paketa"
 
 #: src/Utils/EnumToLocText.vala:69
 msgid "Waiting for package manager lock"
-msgstr ""
+msgstr "Čekanje na zaključavanje upravljača paketa"
 
 #: src/Utils/EnumToLocText.vala:71
 msgid "Waiting for authentication"
-msgstr ""
+msgstr "Čekanje na autentifikaciju"
 
 #: src/Utils/EnumToLocText.vala:73
 msgid "Updating running applications"
-msgstr ""
+msgstr "Aktualiziranje aplikacija koje se pokreću"
 
 #: src/Utils/EnumToLocText.vala:75
 msgid "Checking applications in use"
-msgstr ""
+msgstr "Provjeravanje aplikacija koje se koriste"
 
 #: src/Utils/EnumToLocText.vala:77
 msgid "Checking libraries in use"
-msgstr ""
+msgstr "Provjeravanje biblioteka koje se koriste"
 
 #: src/Utils/EnumToLocText.vala:79
 msgid "Copying files"
-msgstr ""
+msgstr "Kopiranje datoteka"
 
 #: src/Utils/EnumToLocText.vala:82
 msgid "Installing"
-msgstr ""
+msgstr "Instaliranje"
 
 #: src/Utils/EnumToLocText.vala:90
 msgid "Cannot start daemon"
-msgstr ""
+msgstr "Nije moguće pokrenuti daemona"
 
 #: src/Utils/EnumToLocText.vala:92
 msgid "Declined interaction"
-msgstr ""
+msgstr "Odbijena interakcija"
 
 #: src/Utils/EnumToLocText.vala:94
 msgid "Declined sim"
-msgstr ""
+msgstr "Odbijena simulacija"
 
 #: src/Utils/EnumToLocText.vala:96
 msgid "Failed"
-msgstr ""
+msgstr "Neuspjelo"
 
 #: src/Utils/EnumToLocText.vala:98
 msgid "Auth fail"
-msgstr ""
+msgstr "Neuspjela autentifikacija"
 
 #: src/Utils/EnumToLocText.vala:100
 msgid "File bad"
-msgstr ""
+msgstr "Datoteka je loša"
 
 #: src/Utils/EnumToLocText.vala:102
 msgid "Input bad"
-msgstr ""
+msgstr "Unos je loš"
 
 #: src/Utils/EnumToLocText.vala:104
 msgid "Not supported"
-msgstr ""
+msgstr "Nije podržano"
 
 #: src/Utils/EnumToLocText.vala:106
 msgid "idk, client error"
-msgstr ""
+msgstr "idk, greška klijenta"
