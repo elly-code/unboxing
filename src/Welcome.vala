@@ -7,7 +7,6 @@
 public class Unboxing.Welcome : Gtk.ApplicationWindow {
 
     public signal void open_this (File file);
-    const string DONATION_LINK = "https://ko-fi.com/teamcons";
 
     public const string ACTION_PREFIX = "win.";
     public const string ACTION_OPEN = "action_open";
@@ -42,16 +41,6 @@ public class Unboxing.Welcome : Gtk.ApplicationWindow {
         };
         headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
 
-        var link_button = new Gtk.Button.from_icon_name ("face-heart") {
-            tooltip_text = _("Support us! (%s)").printf (DONATION_LINK)
-        };
-        link_button.add_css_class (Granite.STYLE_CLASS_FLAT);
-        link_button.clicked.connect (() => {
-            var urilaunch = new Gtk.UriLauncher (DONATION_LINK);
-            urilaunch.launch.begin (this, null);
-        });
-
-        //headerbar.pack_end (link_button);
         titlebar = headerbar;
 
         var view = new Gtk.Box (VERTICAL, 0) {
