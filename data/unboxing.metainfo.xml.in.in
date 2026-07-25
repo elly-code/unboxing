@@ -82,7 +82,8 @@
         <ul>
           <li>Organization change: Now under elly-code</li>
           <li>Under the hood improvements</li>
-          <li>Translation into croatian thanks to Milotype!</li>
+          <li>Updated croatian translation thanks to Milotype!</li>
+          <li>Updated swedish translation thanks to Yeager!</li>
           <li>More robust handling of files outside Downloads</li>
         </ul>
       </description>
