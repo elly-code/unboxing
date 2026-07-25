@@ -51,7 +51,7 @@ public class Unboxing.Welcome : Gtk.ApplicationWindow {
             urilaunch.launch.begin (this, null);
         });
 
-        headerbar.pack_end (link_button);
+        //headerbar.pack_end (link_button);
         titlebar = headerbar;
 
         var view = new Gtk.Box (VERTICAL, 0) {
