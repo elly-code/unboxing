@@ -94,18 +94,8 @@ public class Unboxing.Welcome : Gtk.ApplicationWindow {
             }
         }
 
-        /* -------- -------- */
-        var support_button = new Gtk.LinkButton.with_label (DONATION_LINK, _("Support us!")) {
-            halign = Gtk.Align.CENTER,
-            hexpand = false,
-            valign = Gtk.Align.END,
-            vexpand = false,
-            margin_top = 6,
-            margin_bottom = 6
-        };
-
         view.append (scrolled);
-        //view.append (support_button);
+
 
         var window_handle = new Gtk.WindowHandle () {
             child = view
