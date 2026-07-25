@@ -20,7 +20,7 @@ public class Unboxing.Welcome : Gtk.ApplicationWindow {
     public Welcome (Gtk.Application application) {
         Object (
             application: application,
-            icon_name: "io.github.elly_code.unboxing",
+            icon_name: APP_ID,
             title: _("Install Untrusted Package")
         );
     }

@@ -1,38 +1,77 @@
-icon_sizes = ['16', '24', '32', '48', '64', '128']
+#
+#   METADATA
+#
 
-foreach i : icon_sizes
-    install_data(
-        join_paths('icons', i + '.svg'),
-        install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', i + 'x' + i, 'apps'),
-        rename: meson.project_name() + '.svg'
-    )
-    install_data(
-        join_paths('icons', i + '.svg'),
-        install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', i + 'x' + i + '@2', 'apps'),
-        rename: meson.project_name() + '.svg'
-    )
-endforeach
+#========================
+# GRESOURCE
 
-i18n.merge_file(
-    input: 'unboxing.desktop.in',
-    output: meson.project_name() + '.desktop',
-    po_dir: join_paths(meson.project_source_root(), 'po', 'extra'),
-    type: 'desktop',
-    install: true,
-    install_dir: join_paths(get_option('datadir'), 'applications'),
+gresource_file = configure_file(
+    input: app_name + '.gresource.xml.in',
+    output: app_id + '.gresource.xml',
+    configuration: config_data,
 )
 
-i18n.merge_file(
-    input: 'unboxing.metainfo.xml.in',
-    output: meson.project_name() + '.metainfo.xml',
-    po_dir: meson.project_source_root() / 'po' / 'extra',
-    type: 'xml',
-    install: true,
-    install_dir: get_option('datadir') / 'metainfo',
+gresource = gnome.compile_resources(
+    'gresource',
+    gresource_file,
+    source_dir: '.'
+)
+
+
+#========================
+# GSCHEMA
+
+gschema_file = configure_file(
+    input: app_name + '.gschema.xml.in',
+    output: app_id + '.gschema.xml',
+    configuration: config_data,
 )
 
 install_data(
-    'unboxing.gschema.xml',
-    install_dir: join_paths(get_option('datadir'), 'glib-2.0', 'schemas'),
-    rename: meson.project_name() + '.gschema.xml'
+    gschema_file,
+    install_dir: datadir / 'glib-2.0' / 'schemas'
 )
+
+#========================
+# ICONS
+subdir('icons')
+
+#========================
+# DESKTOP
+# Inject some variables into the desktop file before merging in the translations
+
+desktop_file_in = configure_file(
+    input: app_name + '.desktop.in.in',
+    output: app_id + '.desktop.in',
+    configuration: config_data,
+)
+
+desktop_file = i18n.merge_file(
+    input: desktop_file_in,
+    output: app_id + '.desktop',
+    po_dir: meson.project_source_root() / 'po' / 'extra',
+    type: 'desktop',
+    install: true,
+    install_dir: datadir / 'applications',
+)
+
+
+#========================
+# METAINFO
+# Inject some variables into the metainfo file before merging in the translations
+
+appstream_file_in = configure_file(
+    input: app_name + '.metainfo.xml.in.in',
+    output: app_id + '.metainfo.xml.in',
+    configuration: config_data,
+)
+
+appstream_file = i18n.merge_file(
+    input: appstream_file_in,
+    output: app_id + '.metainfo.xml',
+    po_dir: meson.project_source_root() / 'po' / 'extra',
+    type: 'xml',
+    install: true,
+    install_dir: datadir / 'metainfo',
+)
+

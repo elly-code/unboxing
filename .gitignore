@@ -1,4 +1,8 @@
+.*
+!.gitignore
+!.valalintignore
+!.editorconfig
+~*
 *~
-build/
-.vscode
-.flatpak-builder
+builddir
+repo

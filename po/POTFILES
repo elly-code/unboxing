@@ -1,8 +1,10 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+src/Application.vala
+src/MainWindow.vala
+src/Utils/EnumToLocText.vala
 src/Views/ErrorView.vala
 src/Views/MainView.vala
 src/Views/ProgressView.vala
 src/Views/SuccessView.vala
-src/Application.vala
 src/Welcome.vala
-src/MainWindow.vala
-src/Utils/EnumToLocText.vala

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.elly_code.unboxing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 16:46+0100\n"
+"POT-Creation-Date: 2026-07-25 22:51+0200\n"
 "PO-Revision-Date: 2022-04-20 09:33+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (Canada) <https://l10n.elementary.io/projects/desktop/"
@@ -19,154 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/Views/ErrorView.vala:21
+#: src/MainWindow.vala:18
 #, fuzzy
-msgid "Installation failed"
-msgstr "Install failed"
-
-#: src/Views/ErrorView.vala:38
-msgid "Details"
-msgstr "Details"
-
-#: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:35
-msgid "Close"
-msgstr "Close"
-
-#: src/Views/MainView.vala:13
-#, fuzzy, c-format
-msgid "Trust and install “%s”?"
-msgstr "Installing “%s”"
-
-#: src/Views/MainView.vala:26
-#, fuzzy
-msgid "Trust and install this package?"
-msgstr "Installing “%s”"
-
-#: src/Views/MainView.vala:27
-#, fuzzy
-msgid ""
-"This package is provided solely by its developer and has not been reviewed "
-"for security, privacy, or system integration."
-msgstr ""
-"This software is provided solely by its developer and has not been reviewed "
-"for security, privacy, or system integration. Installing this software may "
-"add a repository of other apps that will show up in AppCenter."
-
-#.
-#. var loading_spinner = new Gtk.Spinner ();
-#. loading_spinner.start ();
-#.
-#. var loading_label = new Gtk.Label (_("Fetching details"));
-#.
-#. var loading_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
-#. loading_grid.append (loading_spinner);
-#. loading_grid.append (loading_label);
-#: src/Views/MainView.vala:38
-msgid "I understand"
-msgstr "I understand"
-
-#: src/Views/MainView.vala:59
-msgid "Updates may need to be installed manually"
-msgstr ""
-
-#: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
-msgid "Cancel"
-msgstr "Cancel"
-
-#: src/Views/MainView.vala:96
-#, fuzzy
-msgid "Install Anyway"
-msgstr "Install"
-
-#: src/Views/MainView.vala:109
-msgid "Missing components will be downloaded and installed"
-msgstr ""
-
-#: src/Views/MainView.vala:113
-msgid "Runs unsandboxed - Permissions cannot be changed"
-msgstr ""
-
-#: src/Views/ProgressView.vala:13
-#, c-format
-msgid "Installing “%s”"
-msgstr "Installing “%s”"
-
-#: src/Views/ProgressView.vala:31
-msgid "Preparing…"
-msgstr ""
-
-#. string? secondary_label_string;
-#: src/Views/SuccessView.vala:24
-#, c-format
-msgid "“%s” has been installed"
-msgstr "“%s” has been installed"
-
-#. secondary_label_string = _("Open it any time from the Applications Menu.");
-#: src/Views/SuccessView.vala:27
-msgid "New applications will appear normally in the Applications Menu."
-msgstr ""
-
-#: src/Views/SuccessView.vala:29
-#, c-format
-msgid "Move ”%s” to Trash"
-msgstr ""
-
-#: src/Welcome.vala:24
-#, fuzzy
-msgid "Install Untrusted Package"
+msgid "Untrusted package"
 msgstr "Install Untrusted Software"
 
-#: src/Welcome.vala:37
-msgid "Unboxing"
-msgstr ""
-
-#: src/Welcome.vala:46
-#, c-format
-msgid "Support us! (%s)"
-msgstr ""
-
-#: src/Welcome.vala:62
-msgid "Install Debian Package"
-msgstr ""
-
-#: src/Welcome.vala:63
-msgid ""
-"Debian packages are a legacy format to distribute applications and system "
-"components"
-msgstr ""
-
-#: src/Welcome.vala:76
-msgid "Select a file to open"
-msgstr ""
-
-#: src/Welcome.vala:77
-msgid "Browse to open a single file"
-msgstr ""
-
-#: src/Welcome.vala:101
-#, fuzzy, c-format
-msgid "Open “%s”"
-msgstr "Installing “%s”"
-
-#. -------- --------
-#: src/Welcome.vala:109
-msgid "Support us!"
-msgstr ""
-
-#: src/Welcome.vala:146
-#, fuzzy
-msgid "All files"
-msgstr "Install failed"
-
-#: src/Welcome.vala:151
-msgid "Debian package"
-msgstr ""
-
-#: src/Welcome.vala:165
-msgid "Open"
-msgstr ""
-
-#: src/MainWindow.vala:24
+#: src/MainWindow.vala:23
 #, fuzzy, c-format
 msgid "Install “%s”"
 msgstr "Installing “%s”"
@@ -377,9 +235,152 @@ msgstr ""
 msgid "idk, client error"
 msgstr ""
 
+#: src/Views/ErrorView.vala:21
 #, fuzzy
-#~ msgid "untrusted package"
-#~ msgstr "Install Untrusted Software"
+msgid "Installation failed"
+msgstr "Install failed"
+
+#: src/Views/ErrorView.vala:38
+msgid "Details"
+msgstr "Details"
+
+#: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:39
+msgid "Close"
+msgstr "Close"
+
+#: src/Views/MainView.vala:13
+#, fuzzy, c-format
+msgid "Trust and install “%s”?"
+msgstr "Installing “%s”"
+
+#: src/Views/MainView.vala:26
+#, fuzzy
+msgid "Trust and install this package?"
+msgstr "Installing “%s”"
+
+#: src/Views/MainView.vala:27
+#, fuzzy
+msgid ""
+"This package is provided solely by its developer and has not been reviewed "
+"for security, privacy, or system integration."
+msgstr ""
+"This software is provided solely by its developer and has not been reviewed "
+"for security, privacy, or system integration. Installing this software may "
+"add a repository of other apps that will show up in AppCenter."
+
+#.
+#. var loading_spinner = new Gtk.Spinner ();
+#. loading_spinner.start ();
+#.
+#. var loading_label = new Gtk.Label (_("Fetching details"));
+#.
+#. var loading_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+#. loading_grid.append (loading_spinner);
+#. loading_grid.append (loading_label);
+#: src/Views/MainView.vala:38
+msgid "I understand"
+msgstr "I understand"
+
+#: src/Views/MainView.vala:59
+msgid "Updates may need to be installed manually"
+msgstr ""
+
+#: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/Views/MainView.vala:96
+#, fuzzy
+msgid "Install Anyway"
+msgstr "Install"
+
+#: src/Views/MainView.vala:109
+msgid "Missing components will be downloaded and installed"
+msgstr ""
+
+#: src/Views/MainView.vala:113
+msgid "Runs unsandboxed - Permissions cannot be changed"
+msgstr ""
+
+#: src/Views/ProgressView.vala:13
+#, c-format
+msgid "Installing “%s”"
+msgstr "Installing “%s”"
+
+#: src/Views/ProgressView.vala:31
+msgid "Preparing…"
+msgstr ""
+
+#. string? secondary_label_string;
+#: src/Views/SuccessView.vala:24
+#, c-format
+msgid "“%s” has been installed"
+msgstr "“%s” has been installed"
+
+#. secondary_label_string = _("Open it any time from the Applications Menu.");
+#: src/Views/SuccessView.vala:27
+msgid "New applications will appear normally in the Applications Menu."
+msgstr ""
+
+#: src/Views/SuccessView.vala:29
+#, c-format
+msgid "Move ”%s” to Trash"
+msgstr ""
+
+#: src/Welcome.vala:24
+#, fuzzy
+msgid "Install Untrusted Package"
+msgstr "Install Untrusted Software"
+
+#: src/Welcome.vala:37
+msgid "Unboxing"
+msgstr ""
+
+#: src/Welcome.vala:46
+#, c-format
+msgid "Support us! (%s)"
+msgstr ""
+
+#: src/Welcome.vala:62
+msgid "Install Debian Package"
+msgstr ""
+
+#: src/Welcome.vala:63
+msgid ""
+"Debian packages are a legacy format to distribute applications and system "
+"components"
+msgstr ""
+
+#: src/Welcome.vala:76
+msgid "Select a file to open"
+msgstr ""
+
+#: src/Welcome.vala:77
+msgid "Browse to open a single file"
+msgstr ""
+
+#: src/Welcome.vala:101
+#, fuzzy, c-format
+msgid "Open “%s”"
+msgstr "Installing “%s”"
+
+#. -------- --------
+#: src/Welcome.vala:109
+msgid "Support us!"
+msgstr ""
+
+#: src/Welcome.vala:146
+#, fuzzy
+msgid "All files"
+msgstr "Install failed"
+
+#: src/Welcome.vala:151
+msgid "Debian package"
+msgstr ""
+
+#: src/Welcome.vala:165
+msgid "Open"
+msgstr ""
 
 #, fuzzy
 #~ msgid "This app is already installed."

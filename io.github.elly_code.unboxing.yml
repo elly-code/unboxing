@@ -50,7 +50,6 @@ modules:
 
   - name: unboxing
     buildsystem: meson
-    builddir: true
     config-opts:
       - --buildtype=release
     sources:

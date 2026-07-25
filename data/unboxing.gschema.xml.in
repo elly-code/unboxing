@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema path="/io/github/elly_code/unboxing/" id="io.github.elly_code.unboxing" gettext-domain="io.github.elly_code.unboxing">
+  <schema path="@APP_PATH@/" id="@APP_ID@">
     <key name="window-height" type="i">
       <default>420</default>
       <summary>Most recent window height</summary>

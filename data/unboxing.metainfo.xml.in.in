@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2019-2025 elementary, Inc. <contact@elementary.io> -->
-<!-- Copyright 2025-2026 Teamcons -->
+<!-- Copyright 2025-2026 elly-code -->
 <component type="desktop-application">
-  <id>io.github.elly_code.unboxing</id>
+  <id>@APP_ID@</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <translation type="gettext">io.github.elly_code.unboxing</translation>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <translation type="gettext">@APP_ID@</translation>
 
   <name>Unboxing</name>
   <summary>Install apps downloaded from the Internet</summary>
@@ -29,19 +30,19 @@
   <screenshots>
     <screenshot type="default">
       <caption>The welcome screen</caption>
-      <image>https://raw.githubusercontent.com/elly_code/unboxing/1.0.3/data/screenshots/welcome.png</image>
+      <image>https://raw.githubusercontent.com/@PUBLISHER@/@APP_NAME@/@APP_VERSION@/data/screenshots/welcome.png</image>
     </screenshot>
     <screenshot>
       <caption>The welcome screen in dark mode</caption>
-      <image>https://raw.githubusercontent.com/elly_code/unboxing/1.0.3/data/screenshots/welcome-dark.png</image>
+      <image>https://raw.githubusercontent.com/@PUBLISHER@/@APP_NAME@/@APP_VERSION@/data/screenshots/welcome-dark.png</image>
     </screenshot>
     <screenshot>
       <caption>The dialog before installation</caption>
-      <image>https://raw.githubusercontent.com/elly_code/unboxing/1.0.0/data/screenshots/dialog.png</image>
+      <image>https://raw.githubusercontent.com/@PUBLISHER@/@APP_NAME@/@APP_VERSION@/data/screenshots/dialog.png</image>
     </screenshot>
     <screenshot>
       <caption>The final dialog</caption>
-      <image>https://raw.githubusercontent.com/elly_code/unboxing/1.0.0/data/screenshots/finish.png</image>
+      <image>https://raw.githubusercontent.com/@PUBLISHER@/@APP_NAME@/@APP_VERSION@/data/screenshots/finish.png</image>
     </screenshot>
   </screenshots>
 
@@ -51,11 +52,9 @@
 
   <content_rating type="oars-1.1" />
 
-  <launchable type="desktop-id">io.github.elly_code.unboxing.desktop</launchable>
   <provides>
-    <binary>io.github.elly_code.unboxing</binary>
-    <id>io.github.elly_code.unboxing</id>
-    <id>io.github.elly_code.unboxing</id>
+    <binary>@APP_ID@</binary>
+    <id>@APP_ID@</id>
   </provides>
   <replaces>
       <id>io.github.teamcons.unboxing</id>
@@ -67,22 +66,23 @@
     <control>touch</control>
   </supports>
 
-  <url type="homepage">https://github.com/elly_code/unboxing/</url>
-  <url type="bugtracker">https://github.com/elly_code/unboxing/issues</url>
-  <url type="donation">https://ko-fi.com/teamcons</url>
-  <url type="help">https://github.com/elly_code/unboxing/issues</url>
-  <url type="vcs-browser">https://github.com/elly_code/unboxing/</url>
+  <url type="homepage">https://github.com/@PUBLISHER@/@APP_NAME@/</url>
+  <url type="bugtracker">https://github.com/@PUBLISHER@/@APP_NAME@/issues</url>
+  <url type="donation">https://ko-fi.com/teamcons/tip</url>
+  <url type="help">https://github.com/@PUBLISHER@/@APP_NAME@/issues</url>
+  <url type="vcs-browser">https://github.com/@PUBLISHER@/@APP_NAME@/</url>
 
-  <developer id="io.github.teamcons">
-    <name>Team Constellation</name>
+  <developer id="io.github.elly-code">
+    <name>Stella and Charlie</name>
   </developer>
 
   <releases>
     <release version="1.0.3" date="2026-01-11" urgency="medium">
       <description>
         <ul>
-          <li>Re-RDNN</li>
-          <li>Support link moved into button</li>
+          <li>Organization change: Now under elly-code</li>
+          <li>Under the hood improvements</li>
+          <li>Translation into croatian thanks to Milotype!</li>
           <li>More robust handling of files outside Downloads</li>
         </ul>
       </description>

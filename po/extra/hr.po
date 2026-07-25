@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 16:46+0100\n"
+"POT-Creation-Date: 2026-07-25 22:52+0200\n"
 "PO-Revision-Date: 2026-05-13 15:13+0200\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: none\n"
@@ -19,15 +19,23 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: data/unboxing.metainfo.xml.in:10 data/unboxing.desktop.in:3
+#: data/unboxing.desktop.in.in:3 data/unboxing.metainfo.xml.in.in:11
 msgid "Unboxing"
 msgstr "Unboxing"
 
-#: data/unboxing.metainfo.xml.in:11 data/unboxing.desktop.in:4
+#: data/unboxing.desktop.in.in:4 data/unboxing.metainfo.xml.in.in:12
 msgid "Install apps downloaded from the Internet"
 msgstr "Instaliraj s interneta preuzete aplikacije"
 
-#: data/unboxing.metainfo.xml.in:13
+#: data/unboxing.desktop.in.in:5
+msgid "Package Installer"
+msgstr "Instalater paketa"
+
+#: data/unboxing.desktop.in.in:8
+msgid "package;apt;dpkg;install;rpm;deb;debian"
+msgstr "paket;prikladno;dpkg;instalacija;RPM;deb;debian"
+
+#: data/unboxing.metainfo.xml.in.in:14
 msgid ""
 "Handle for you the installation of downloaded Deb packages for Ubuntu and "
 "their dependencies. Simply double-click, confirm, enter your password, and "
@@ -57,46 +65,51 @@ msgstr ""
 "slobodno doniraj. Razvoj zahtijeva puno vremena, a aplikacija je napravljena "
 "kako bi ljudima olakšala posao."
 
-#: data/unboxing.metainfo.xml.in:31
+#: data/unboxing.metainfo.xml.in.in:32
 msgid "The welcome screen"
 msgstr "Uvodni ekran"
 
-#: data/unboxing.metainfo.xml.in:35
+#: data/unboxing.metainfo.xml.in.in:36
 msgid "The welcome screen in dark mode"
 msgstr "Uvodni ekran u tamnom modusu"
 
-#: data/unboxing.metainfo.xml.in:39
+#: data/unboxing.metainfo.xml.in.in:40
 msgid "The dialog before installation"
 msgstr "Dijalog prije instalacije"
 
-#: data/unboxing.metainfo.xml.in:43
+#: data/unboxing.metainfo.xml.in.in:44
 msgid "The final dialog"
 msgstr "Završni dijalog"
 
-#: data/unboxing.metainfo.xml.in:77
-msgid "Team Constellation"
-msgstr "Konstelacija tima"
+#: data/unboxing.metainfo.xml.in.in:76
+msgid "Stella and Charlie"
+msgstr ""
 
-#: data/unboxing.metainfo.xml.in:84
-msgid "Re-RDNN"
-msgstr "Re-RDNN"
+#: data/unboxing.metainfo.xml.in.in:83
+msgid "Organization change: Now under elly-code"
+msgstr ""
 
-#: data/unboxing.metainfo.xml.in:85
-msgid "Support link moved into button"
-msgstr "Poveznica za podršku je sada gumb"
+#: data/unboxing.metainfo.xml.in.in:84
+msgid "Under the hood improvements"
+msgstr ""
 
-#: data/unboxing.metainfo.xml.in:86
+#: data/unboxing.metainfo.xml.in.in:85
+msgid "Translation into croatian thanks to Milotype!"
+msgstr ""
+
+#: data/unboxing.metainfo.xml.in.in:86
 msgid "More robust handling of files outside Downloads"
 msgstr "Robusnije rukovanje datotekama izvan preuzimanja"
 
-#: data/unboxing.metainfo.xml.in:93
+#: data/unboxing.metainfo.xml.in.in:93
 msgid "Initial release"
 msgstr "Prvo izdanje"
 
-#: data/unboxing.desktop.in:5
-msgid "Package Installer"
-msgstr "Instalater paketa"
+#~ msgid "Team Constellation"
+#~ msgstr "Konstelacija tima"
 
-#: data/unboxing.desktop.in:8
-msgid "package;apt;dpkg;install;rpm;deb;debian"
-msgstr "paket;prikladno;dpkg;instalacija;RPM;deb;debian"
+#~ msgid "Re-RDNN"
+#~ msgstr "Re-RDNN"
+
+#~ msgid "Support link moved into button"
+#~ msgstr "Poveznica za podršku je sada gumb"

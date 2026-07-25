@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.elly_code.unboxing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 16:46+0100\n"
+"POT-Creation-Date: 2026-07-25 22:51+0200\n"
 "PO-Revision-Date: 2022-08-11 20:41+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/desktop/unboxing/"
@@ -19,155 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/Views/ErrorView.vala:21
+#: src/MainWindow.vala:18
 #, fuzzy
-msgid "Installation failed"
-msgstr "설치 실패"
-
-#: src/Views/ErrorView.vala:38
-msgid "Details"
-msgstr "세부 사항"
-
-#: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:35
-msgid "Close"
-msgstr "닫기"
-
-#: src/Views/MainView.vala:13
-#, fuzzy, c-format
-msgid "Trust and install “%s”?"
-msgstr "“%s” 설치함"
-
-#: src/Views/MainView.vala:26
-#, fuzzy
-msgid "Trust and install this package?"
-msgstr "“%s” 설치함"
-
-#: src/Views/MainView.vala:27
-#, fuzzy
-msgid ""
-"This package is provided solely by its developer and has not been reviewed "
-"for security, privacy, or system integration."
-msgstr ""
-"이 앱은 개발자로부터만 제공되었고 보안, 개인 정보 보호 또는 시스템 통합에 대"
-"해서는 확인되지 않았습니다."
-
-#.
-#. var loading_spinner = new Gtk.Spinner ();
-#. loading_spinner.start ();
-#.
-#. var loading_label = new Gtk.Label (_("Fetching details"));
-#.
-#. var loading_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
-#. loading_grid.append (loading_spinner);
-#. loading_grid.append (loading_label);
-#: src/Views/MainView.vala:38
-msgid "I understand"
-msgstr "이해하였습니다"
-
-#: src/Views/MainView.vala:59
-msgid "Updates may need to be installed manually"
-msgstr ""
-
-#: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
-msgid "Cancel"
-msgstr "취소"
-
-#: src/Views/MainView.vala:96
-msgid "Install Anyway"
-msgstr "강제 설치"
-
-#: src/Views/MainView.vala:109
-msgid "Missing components will be downloaded and installed"
-msgstr ""
-
-#: src/Views/MainView.vala:113
-#, fuzzy
-msgid "Runs unsandboxed - Permissions cannot be changed"
-msgstr "%s에서 권한을 변경할 수 있습니다"
-
-#: src/Views/ProgressView.vala:13
-#, c-format
-msgid "Installing “%s”"
-msgstr "%s 설치 중"
-
-#: src/Views/ProgressView.vala:31
-msgid "Preparing…"
-msgstr "준비 중…"
-
-#. string? secondary_label_string;
-#: src/Views/SuccessView.vala:24
-#, c-format
-msgid "“%s” has been installed"
-msgstr "\"%s\" 설치를 마쳤습니다"
-
-#. secondary_label_string = _("Open it any time from the Applications Menu.");
-#: src/Views/SuccessView.vala:27
-#, fuzzy
-msgid "New applications will appear normally in the Applications Menu."
-msgstr "애플리케이션 메뉴에서 언제든지 엽니다."
-
-#: src/Views/SuccessView.vala:29
-#, c-format
-msgid "Move ”%s” to Trash"
-msgstr "”%s” 휴지통으로 보내기"
-
-#: src/Welcome.vala:24
-#, fuzzy
-msgid "Install Untrusted Package"
+msgid "Untrusted package"
 msgstr "신뢰할 수 없는 앱 설치"
 
-#: src/Welcome.vala:37
-msgid "Unboxing"
-msgstr ""
-
-#: src/Welcome.vala:46
-#, c-format
-msgid "Support us! (%s)"
-msgstr ""
-
-#: src/Welcome.vala:62
-msgid "Install Debian Package"
-msgstr ""
-
-#: src/Welcome.vala:63
-msgid ""
-"Debian packages are a legacy format to distribute applications and system "
-"components"
-msgstr ""
-
-#: src/Welcome.vala:76
-msgid "Select a file to open"
-msgstr ""
-
-#: src/Welcome.vala:77
-msgid "Browse to open a single file"
-msgstr ""
-
-#: src/Welcome.vala:101
-#, fuzzy, c-format
-msgid "Open “%s”"
-msgstr "앱 열기"
-
-#. -------- --------
-#: src/Welcome.vala:109
-msgid "Support us!"
-msgstr ""
-
-#: src/Welcome.vala:146
-#, fuzzy
-msgid "All files"
-msgstr "설치 실패"
-
-#: src/Welcome.vala:151
-msgid "Debian package"
-msgstr ""
-
-#: src/Welcome.vala:165
-#, fuzzy
-msgid "Open"
-msgstr "앱 열기"
-
-#: src/MainWindow.vala:24
+#: src/MainWindow.vala:23
 #, fuzzy, c-format
 msgid "Install “%s”"
 msgstr "“%s” 설치함"
@@ -378,9 +235,153 @@ msgstr ""
 msgid "idk, client error"
 msgstr ""
 
+#: src/Views/ErrorView.vala:21
 #, fuzzy
-#~ msgid "untrusted package"
-#~ msgstr "신뢰할 수 없는 앱 설치"
+msgid "Installation failed"
+msgstr "설치 실패"
+
+#: src/Views/ErrorView.vala:38
+msgid "Details"
+msgstr "세부 사항"
+
+#: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:39
+msgid "Close"
+msgstr "닫기"
+
+#: src/Views/MainView.vala:13
+#, fuzzy, c-format
+msgid "Trust and install “%s”?"
+msgstr "“%s” 설치함"
+
+#: src/Views/MainView.vala:26
+#, fuzzy
+msgid "Trust and install this package?"
+msgstr "“%s” 설치함"
+
+#: src/Views/MainView.vala:27
+#, fuzzy
+msgid ""
+"This package is provided solely by its developer and has not been reviewed "
+"for security, privacy, or system integration."
+msgstr ""
+"이 앱은 개발자로부터만 제공되었고 보안, 개인 정보 보호 또는 시스템 통합에 대"
+"해서는 확인되지 않았습니다."
+
+#.
+#. var loading_spinner = new Gtk.Spinner ();
+#. loading_spinner.start ();
+#.
+#. var loading_label = new Gtk.Label (_("Fetching details"));
+#.
+#. var loading_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+#. loading_grid.append (loading_spinner);
+#. loading_grid.append (loading_label);
+#: src/Views/MainView.vala:38
+msgid "I understand"
+msgstr "이해하였습니다"
+
+#: src/Views/MainView.vala:59
+msgid "Updates may need to be installed manually"
+msgstr ""
+
+#: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
+msgid "Cancel"
+msgstr "취소"
+
+#: src/Views/MainView.vala:96
+msgid "Install Anyway"
+msgstr "강제 설치"
+
+#: src/Views/MainView.vala:109
+msgid "Missing components will be downloaded and installed"
+msgstr ""
+
+#: src/Views/MainView.vala:113
+#, fuzzy
+msgid "Runs unsandboxed - Permissions cannot be changed"
+msgstr "%s에서 권한을 변경할 수 있습니다"
+
+#: src/Views/ProgressView.vala:13
+#, c-format
+msgid "Installing “%s”"
+msgstr "%s 설치 중"
+
+#: src/Views/ProgressView.vala:31
+msgid "Preparing…"
+msgstr "준비 중…"
+
+#. string? secondary_label_string;
+#: src/Views/SuccessView.vala:24
+#, c-format
+msgid "“%s” has been installed"
+msgstr "\"%s\" 설치를 마쳤습니다"
+
+#. secondary_label_string = _("Open it any time from the Applications Menu.");
+#: src/Views/SuccessView.vala:27
+#, fuzzy
+msgid "New applications will appear normally in the Applications Menu."
+msgstr "애플리케이션 메뉴에서 언제든지 엽니다."
+
+#: src/Views/SuccessView.vala:29
+#, c-format
+msgid "Move ”%s” to Trash"
+msgstr "”%s” 휴지통으로 보내기"
+
+#: src/Welcome.vala:24
+#, fuzzy
+msgid "Install Untrusted Package"
+msgstr "신뢰할 수 없는 앱 설치"
+
+#: src/Welcome.vala:37
+msgid "Unboxing"
+msgstr ""
+
+#: src/Welcome.vala:46
+#, c-format
+msgid "Support us! (%s)"
+msgstr ""
+
+#: src/Welcome.vala:62
+msgid "Install Debian Package"
+msgstr ""
+
+#: src/Welcome.vala:63
+msgid ""
+"Debian packages are a legacy format to distribute applications and system "
+"components"
+msgstr ""
+
+#: src/Welcome.vala:76
+msgid "Select a file to open"
+msgstr ""
+
+#: src/Welcome.vala:77
+msgid "Browse to open a single file"
+msgstr ""
+
+#: src/Welcome.vala:101
+#, fuzzy, c-format
+msgid "Open “%s”"
+msgstr "앱 열기"
+
+#. -------- --------
+#: src/Welcome.vala:109
+msgid "Support us!"
+msgstr ""
+
+#: src/Welcome.vala:146
+#, fuzzy
+msgid "All files"
+msgstr "설치 실패"
+
+#: src/Welcome.vala:151
+msgid "Debian package"
+msgstr ""
+
+#: src/Welcome.vala:165
+#, fuzzy
+msgid "Open"
+msgstr "앱 열기"
 
 #~ msgid "This app is already installed."
 #~ msgstr "이 앱은 이미 설치되었습니다."

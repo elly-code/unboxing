@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 16:46+0100\n"
+"POT-Creation-Date: 2026-07-25 22:52+0200\n"
 "PO-Revision-Date: 2020-03-17 14:09+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
@@ -19,16 +19,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/unboxing.metainfo.xml.in:10 data/unboxing.desktop.in:3
+#: data/unboxing.desktop.in.in:3 data/unboxing.metainfo.xml.in.in:11
 #, fuzzy
 msgid "Unboxing"
 msgstr "Flanka ŝargiĝo"
 
-#: data/unboxing.metainfo.xml.in:11 data/unboxing.desktop.in:4
+#: data/unboxing.desktop.in.in:4 data/unboxing.metainfo.xml.in.in:12
 msgid "Install apps downloaded from the Internet"
 msgstr "Instali aplikaĵon elŝutita de la interreto"
 
-#: data/unboxing.metainfo.xml.in:13
+#: data/unboxing.desktop.in.in:5
+#, fuzzy
+msgid "Package Installer"
+msgstr "Instalilo Flatpak"
+
+#: data/unboxing.desktop.in.in:8
+msgid "package;apt;dpkg;install;rpm;deb;debian"
+msgstr ""
+
+#: data/unboxing.metainfo.xml.in.in:14
 msgid ""
 "Handle for you the installation of downloaded Deb packages for Ubuntu and "
 "their dependencies. Simply double-click, confirm, enter your password, and "
@@ -45,49 +54,44 @@ msgid ""
 "donation. This takes a lot of time, and is done to help people."
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:31
+#: data/unboxing.metainfo.xml.in.in:32
 msgid "The welcome screen"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:35
+#: data/unboxing.metainfo.xml.in.in:36
 msgid "The welcome screen in dark mode"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:39
+#: data/unboxing.metainfo.xml.in.in:40
 msgid "The dialog before installation"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:43
+#: data/unboxing.metainfo.xml.in.in:44
 msgid "The final dialog"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:77
-msgid "Team Constellation"
+#: data/unboxing.metainfo.xml.in.in:76
+msgid "Stella and Charlie"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:84
-msgid "Re-RDNN"
+#: data/unboxing.metainfo.xml.in.in:83
+msgid "Organization change: Now under elly-code"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:85
-msgid "Support link moved into button"
+#: data/unboxing.metainfo.xml.in.in:84
+msgid "Under the hood improvements"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:86
+#: data/unboxing.metainfo.xml.in.in:85
+msgid "Translation into croatian thanks to Milotype!"
+msgstr ""
+
+#: data/unboxing.metainfo.xml.in.in:86
 msgid "More robust handling of files outside Downloads"
 msgstr ""
 
-#: data/unboxing.metainfo.xml.in:93
+#: data/unboxing.metainfo.xml.in.in:93
 msgid "Initial release"
-msgstr ""
-
-#: data/unboxing.desktop.in:5
-#, fuzzy
-msgid "Package Installer"
-msgstr "Instalilo Flatpak"
-
-#: data/unboxing.desktop.in:8
-msgid "package;apt;dpkg;install;rpm;deb;debian"
 msgstr ""
 
 #~ msgid "Updated translations"

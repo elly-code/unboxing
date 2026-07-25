@@ -1,0 +1,44 @@
+#
+# This is danger
+#
+id: io.github.elly_code.unboxing.devel
+runtime: io.elementary.Platform
+runtime-version: '8'
+sdk: io.elementary.Sdk
+command: io.github.elly_code.unboxing.devel
+
+tags: ['devel']
+desktop-file-name-suffix: ' (Development)'
+
+finish-args:
+  - '--socket=wayland'
+  - '--socket=fallback-x11'
+  - '--share=ipc'
+  - '--device=dri'
+
+modules:
+  # Needed to access Apt
+  - name: packagekit-glib2
+    buildsystem: meson
+    sources:
+      - type: archive
+        url: https://github.com/PackageKit/PackageKit/archive/refs/tags/v1.3.2.tar.gz
+        sha256: 22df53fef59ee4542238350b5a66587416d56eabf43c8ba46208900442a7dc0f
+    config-opts:
+      - --buildtype=debug
+      #- -Dpackaging_backend=['apt']
+      - -Dsystemd=false
+      - -Doffline_update=false
+      - -Dman_pages=false
+      - -Dpython_backend=false
+      - -Dbash_completion=false
+      - -Dbash_command_not_found=false
+      - -Dgtk_module=false
+
+  - name: unboxing
+    buildsystem: meson
+    config-opts:
+      - --buildtype=debug
+    sources:
+      - type: dir
+        path: .

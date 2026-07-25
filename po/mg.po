@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.elly_code.unboxing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 16:46+0100\n"
+"POT-Creation-Date: 2026-07-25 22:51+0200\n"
 "PO-Revision-Date: 2019-09-30 10:15-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,145 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Views/ErrorView.vala:21
-msgid "Installation failed"
+#: src/MainWindow.vala:18
+msgid "Untrusted package"
 msgstr ""
 
-#: src/Views/ErrorView.vala:38
-msgid "Details"
-msgstr ""
-
-#: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:35
-msgid "Close"
-msgstr ""
-
-#: src/Views/MainView.vala:13
-#, c-format
-msgid "Trust and install “%s”?"
-msgstr ""
-
-#: src/Views/MainView.vala:26
-msgid "Trust and install this package?"
-msgstr ""
-
-#: src/Views/MainView.vala:27
-msgid ""
-"This package is provided solely by its developer and has not been reviewed "
-"for security, privacy, or system integration."
-msgstr ""
-
-#.
-#. var loading_spinner = new Gtk.Spinner ();
-#. loading_spinner.start ();
-#.
-#. var loading_label = new Gtk.Label (_("Fetching details"));
-#.
-#. var loading_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
-#. loading_grid.append (loading_spinner);
-#. loading_grid.append (loading_label);
-#: src/Views/MainView.vala:38
-msgid "I understand"
-msgstr ""
-
-#: src/Views/MainView.vala:59
-msgid "Updates may need to be installed manually"
-msgstr ""
-
-#: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
-msgid "Cancel"
-msgstr ""
-
-#: src/Views/MainView.vala:96
-msgid "Install Anyway"
-msgstr ""
-
-#: src/Views/MainView.vala:109
-msgid "Missing components will be downloaded and installed"
-msgstr ""
-
-#: src/Views/MainView.vala:113
-msgid "Runs unsandboxed - Permissions cannot be changed"
-msgstr ""
-
-#: src/Views/ProgressView.vala:13
-#, c-format
-msgid "Installing “%s”"
-msgstr ""
-
-#: src/Views/ProgressView.vala:31
-msgid "Preparing…"
-msgstr ""
-
-#. string? secondary_label_string;
-#: src/Views/SuccessView.vala:24
-#, c-format
-msgid "“%s” has been installed"
-msgstr ""
-
-#. secondary_label_string = _("Open it any time from the Applications Menu.");
-#: src/Views/SuccessView.vala:27
-msgid "New applications will appear normally in the Applications Menu."
-msgstr ""
-
-#: src/Views/SuccessView.vala:29
-#, c-format
-msgid "Move ”%s” to Trash"
-msgstr ""
-
-#: src/Welcome.vala:24
-msgid "Install Untrusted Package"
-msgstr ""
-
-#: src/Welcome.vala:37
-msgid "Unboxing"
-msgstr ""
-
-#: src/Welcome.vala:46
-#, c-format
-msgid "Support us! (%s)"
-msgstr ""
-
-#: src/Welcome.vala:62
-msgid "Install Debian Package"
-msgstr ""
-
-#: src/Welcome.vala:63
-msgid ""
-"Debian packages are a legacy format to distribute applications and system "
-"components"
-msgstr ""
-
-#: src/Welcome.vala:76
-msgid "Select a file to open"
-msgstr ""
-
-#: src/Welcome.vala:77
-msgid "Browse to open a single file"
-msgstr ""
-
-#: src/Welcome.vala:101
-#, c-format
-msgid "Open “%s”"
-msgstr ""
-
-#. -------- --------
-#: src/Welcome.vala:109
-msgid "Support us!"
-msgstr ""
-
-#: src/Welcome.vala:146
-msgid "All files"
-msgstr ""
-
-#: src/Welcome.vala:151
-msgid "Debian package"
-msgstr ""
-
-#: src/Welcome.vala:165
-msgid "Open"
-msgstr ""
-
-#: src/MainWindow.vala:24
+#: src/MainWindow.vala:23
 #, c-format
 msgid "Install “%s”"
 msgstr ""
@@ -359,4 +225,142 @@ msgstr ""
 
 #: src/Utils/EnumToLocText.vala:106
 msgid "idk, client error"
+msgstr ""
+
+#: src/Views/ErrorView.vala:21
+msgid "Installation failed"
+msgstr ""
+
+#: src/Views/ErrorView.vala:38
+msgid "Details"
+msgstr ""
+
+#: src/Views/ErrorView.vala:43 src/Views/SuccessView.vala:39
+msgid "Close"
+msgstr ""
+
+#: src/Views/MainView.vala:13
+#, c-format
+msgid "Trust and install “%s”?"
+msgstr ""
+
+#: src/Views/MainView.vala:26
+msgid "Trust and install this package?"
+msgstr ""
+
+#: src/Views/MainView.vala:27
+msgid ""
+"This package is provided solely by its developer and has not been reviewed "
+"for security, privacy, or system integration."
+msgstr ""
+
+#.
+#. var loading_spinner = new Gtk.Spinner ();
+#. loading_spinner.start ();
+#.
+#. var loading_label = new Gtk.Label (_("Fetching details"));
+#.
+#. var loading_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+#. loading_grid.append (loading_spinner);
+#. loading_grid.append (loading_label);
+#: src/Views/MainView.vala:38
+msgid "I understand"
+msgstr ""
+
+#: src/Views/MainView.vala:59
+msgid "Updates may need to be installed manually"
+msgstr ""
+
+#: src/Views/MainView.vala:93 src/Views/ProgressView.vala:43
+msgid "Cancel"
+msgstr ""
+
+#: src/Views/MainView.vala:96
+msgid "Install Anyway"
+msgstr ""
+
+#: src/Views/MainView.vala:109
+msgid "Missing components will be downloaded and installed"
+msgstr ""
+
+#: src/Views/MainView.vala:113
+msgid "Runs unsandboxed - Permissions cannot be changed"
+msgstr ""
+
+#: src/Views/ProgressView.vala:13
+#, c-format
+msgid "Installing “%s”"
+msgstr ""
+
+#: src/Views/ProgressView.vala:31
+msgid "Preparing…"
+msgstr ""
+
+#. string? secondary_label_string;
+#: src/Views/SuccessView.vala:24
+#, c-format
+msgid "“%s” has been installed"
+msgstr ""
+
+#. secondary_label_string = _("Open it any time from the Applications Menu.");
+#: src/Views/SuccessView.vala:27
+msgid "New applications will appear normally in the Applications Menu."
+msgstr ""
+
+#: src/Views/SuccessView.vala:29
+#, c-format
+msgid "Move ”%s” to Trash"
+msgstr ""
+
+#: src/Welcome.vala:24
+msgid "Install Untrusted Package"
+msgstr ""
+
+#: src/Welcome.vala:37
+msgid "Unboxing"
+msgstr ""
+
+#: src/Welcome.vala:46
+#, c-format
+msgid "Support us! (%s)"
+msgstr ""
+
+#: src/Welcome.vala:62
+msgid "Install Debian Package"
+msgstr ""
+
+#: src/Welcome.vala:63
+msgid ""
+"Debian packages are a legacy format to distribute applications and system "
+"components"
+msgstr ""
+
+#: src/Welcome.vala:76
+msgid "Select a file to open"
+msgstr ""
+
+#: src/Welcome.vala:77
+msgid "Browse to open a single file"
+msgstr ""
+
+#: src/Welcome.vala:101
+#, c-format
+msgid "Open “%s”"
+msgstr ""
+
+#. -------- --------
+#: src/Welcome.vala:109
+msgid "Support us!"
+msgstr ""
+
+#: src/Welcome.vala:146
+msgid "All files"
+msgstr ""
+
+#: src/Welcome.vala:151
+msgid "Debian package"
+msgstr ""
+
+#: src/Welcome.vala:165
+msgid "Open"
 msgstr ""
